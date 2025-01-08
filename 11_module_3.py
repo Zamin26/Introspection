@@ -25,5 +25,5 @@ def introspection_info(obj):                                                    
 number_info = introspection_info(42)                                                    # obj по условию равен 42
 print(number_info)
 
-number_info = introspection_info('Hello')                                               # вместо числа указано слово
-print(number_info)
+word_info = introspection_info('Hello')                                               # вместо числа указано слово
+print(word_info)
